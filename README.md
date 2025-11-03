@@ -1,5 +1,15 @@
 "Comparative Analysis of Regression Models for California Housing Price Prediction"
 
+🚀 Technologies & Tools Overview
+
+Programming Language:Python
+Data Handling & Analysis:Pandas and NumPy
+Data Visualization:Matplotlib and Seaborn
+Machine Learning & Modeling:scikit-learn (Linear Regression, Ridge, Lasso, ElasticNet, SVR, Decision Trees, Gradient Boosting)
+Statsmodels: (for statistical analysis and VIF)
+Model Evaluation & Tuning:scikit-learn metrics (MAE, MSE, RMSE, R²)
+Interactive Development: Google Colab
+
 ##Scenario:A real estate agency wants to estimate house prices in California based on various factors like location, number of rooms, and population density. They employ different machine learning models to predict prices and compare their predictions with actual market values to determine the most accurate approach.
 
 ##Step 1: Load and Explore the Dataset.We use the California Housing Dataset to train and test the model to see the models's Performance.A Pandas DataFrame is created to store the dataset.
