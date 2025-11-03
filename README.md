@@ -4,7 +4,6 @@
 
 Programming Language:Python
 Data Handling & Analysis:Pandas and NumPy
-Data Visualization:Matplotlib and Seaborn
 Machine Learning & Modeling:scikit-learn (Linear Regression, Ridge, Lasso, ElasticNet, SVR, Decision Trees, Gradient Boosting)
 Statsmodels: (for statistical analysis and VIF)
 Model Evaluation & Tuning:scikit-learn metrics (MAE, MSE, RMSE, R²)
