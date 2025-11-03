@@ -1,54 +1,15 @@
-# python
-Number Guessing Game in Python
-A simple command-line guessing game where the user tries to guess a randomly generated number between 1 and 100.
-________________________________________
-Project Structure
-guessing-game/
-├── guessing_game.py
-├── README.md
-└── LICENSE
-________________________________________
-guessing_game.py
-Python
-import random
-def guessing_game():
-    number_to_guess = random.randint(1, 100)
-    tries = 0
-    while True:
-        user_guess = input("Guess a number between 1 and 100: ")
-        if not user_guess.isdigit():
-            print("Invalid input. Please enter a whole number.")
-            continue
-        user_guess = int(user_guess)
-        tries += 1
-        if user_guess == number_to_guess:
-            print(f"You are right, great job! It took you {tries} tries.")
-            break
-        elif user_guess < number_to_guess:
-            print("Your guess is low, try again!")
-        else:
-            print("Your guess is high, try again!")
-if __name__ == "__main__":
-    guessing_game()
-________________________________________
-README.md
-Markdown
-# Number Guessing Game in Python
-A simple number guessing game where the user has to guess a randomly generated number between 1 and 100.
-## How to Play
-- The system generates a random number between 1 and 100.
-- Enter your guess (a number between 1 and 100).
-- The program will tell you if your guess is too low, too high, or correct.
-- The game ends when you guess the correct number.
-## How to Run
-1. Make sure you have Python installed.
-2. Run the game with:
-python guessing_game.py
-## Example Output
-Guess a number between 1 and 100: 50
-Your guess is low, try again!
-Guess a number between 1 and 100: 75
-Your guess is high, try again!
-Guess a number between 1 and 100: 63
-You are right, great job! It took you 3 tries.
+"Comparative Analysis of Regression Models for California Housing Price Prediction"
 
+##Scenario:A real estate agency wants to estimate house prices in California based on various factors like location, number of rooms, and population density. They employ different machine learning models to predict prices and compare their predictions with actual market values to determine the most accurate approach.
+##Step 1: Load and Explore the Dataset.We use the California Housing Dataset to train and test the model to see the models's Performance.A Pandas DataFrame is created to store the dataset.
+
+##Step 2: Preprocessing DataFeatures (X) are selected by removing the target variable (Price).Data is standardized using StandardScaler to ensure all features are on the same scale.
+
+##Step 3: Check for MulticollinearityVariance Inflation Factor (VIF) helps detect multicollinearity among features.If a feature has a high VIF (>5 or >10), it indicates redundancy.
+
+##Step 4: Train-Test SplitThe dataset is split into 80% training data and 20% testing data.
+##Step 5:Train and Evaluate Each ModelModels are trained on X_train and y_train.Predictions are made on X_test.
+Models are evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), RMSE, and R-Square (R²).
+
+##Step 6: Train Multiple Regression Models
+Various regression models are trained, including Linear Regression, Ridge, Lasso, ElasticNet, SVR, Decision Trees, and Gradient Boosting.
