@@ -17,12 +17,11 @@ Interactive Development: Google Colab
 
 ##Step 3: Check for MulticollinearityVariance Inflation Factor (VIF) helps detect multicollinearity among features.If a feature has a high VIF (>5 or >10), it indicates redundancy.
 
-##Step 4: Train-Test SplitThe dataset is split into 80% training data and 20% testing data.
+##Step 4: Train-Test Split: The dataset is split into 80% training data and 20% testing data.
 
-##Step 5:Train and Evaluate Each ModelModels are trained on X_train and y_train.Predictions are made on X_test.
+##Step 5:Train and Evaluate Each Model: Models are trained on X_train and y_train.Predictions are made on X_test.
 Models are evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), RMSE, and R-Square (R²).
 
-##Step 6: Train Multiple Regression Models
-Various regression models are trained, including Linear Regression, Ridge, Lasso, ElasticNet, SVR, Decision Trees, and Gradient Boosting.
+##Step 6: Train Multiple Regression Models: Various regression models are trained, including Linear Regression, Ridge, Lasso, ElasticNet, SVR, Decision Trees, and Gradient Boosting.
 
-##Step 7: Among all the models RandomForestRegressor Model gave the best R2 score .R² measures how well the predicted values from your model match the actual data.
+##Step 7: Conclusion: Among all the models RandomForestRegressor Model gave the best R2 score .R² measures how well the predicted values from your model match the actual data.
