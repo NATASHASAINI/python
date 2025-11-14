@@ -24,4 +24,4 @@ Models are evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), 
 
 ##Step 6: Train Multiple Regression Models: Various regression models are trained, including Linear Regression, Ridge, Lasso, ElasticNet, SVR, Decision Trees, and Gradient Boosting.
 
-##Step 7: Conclusion: Among all the models RandomForestRegressor Model gave the best R2 score .R² measures how well the predicted values from your model match the actual data.
+##Step 7: Conclusion: Among all the models RandomForestRegressor Model gave the best R2 score .R² measures how well the predicted values from your model match the actual data.A higher R² indicates a better fit.
